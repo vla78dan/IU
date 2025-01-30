@@ -61,6 +61,7 @@
         cursor: pointer;
         transition: box-shadow 0.2s;
     }
+
     .tweet-but:hover {
         box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
     }
@@ -73,7 +74,13 @@
         width: 96px;
         margin-left: 8px;
         cursor: pointer;
+        transition: opacity 0.5s;
     }
+
+    .button-uber:hover {
+        opacity: 0.5;
+    }
+
 
     .button-amazon {
         background-color: rgb(255, 216, 20);
@@ -84,6 +91,11 @@
         border-radius: 12px;
         margin: 4px;
         cursor: pointer;
+        transition: background-color 0.5s;
+    }
+
+    .button-amazon:hover {
+        background-color: rgb(190, 161, 15);
     }
 
     .button-gh {
@@ -96,6 +108,11 @@
         border-radius: 6px;
         font-weight: bold;
         cursor: pointer;
+        transition: box-shadow 0.5s;
+    }
+
+    .button-gh:hover {
+        box-shadow: 0px 4px 6px rgba(46, 164, 79, 0.45);
     }
 
     .button-boot {
@@ -109,6 +126,11 @@
         font-weight: bold;
         font-size: 14px;
         cursor: pointer;
+        transition: opacity 0.5s;
+    }
+
+    .button-boot:hover {
+        opacity: 0.8;
     }
 
     .button-boot-down {
@@ -122,7 +144,13 @@
         font-weight: bold;
         font-size: 14px;
         cursor: pointer;
+        transition: background-color 0.5s, color 0.5s;
     }
+    .button-boot-down:hover {
+        background-color: rgb(117, 118, 122);
+        color: white;
+    }
+
 
     .button-linked {
         margin: 4px;
@@ -134,6 +162,10 @@
         border-radius: 23px;
         font-weight: bold;
         cursor: pointer;
+        transition: background-color 0.5s;
+    }
+    .button-linked:hover {
+        background-color: rgb(29, 64, 124);
     }
 
     .button-linked-save {
@@ -145,6 +177,10 @@
         font-weight: bold;
         border-radius: 23px;
         cursor: pointer;
+        transition: background-color 0.5s;
+    }
+    .button-linked-save:hover {
+        background-color: rgb(227, 227, 237);
     }
 
 </style>
